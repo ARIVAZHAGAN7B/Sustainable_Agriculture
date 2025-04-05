@@ -1,0 +1,46 @@
+# === Python / FastAPI ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+.env
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.DS_Store
+
+# === Jupyter / Notebooks (if any) ===
+.ipynb_checkpoints
+*.ipynb
+
+# === Model files ===
+*.pkl
+*.joblib
+*.h5
+*.onnx
+*.pt
+*.tflite
+
+# === Logs and outputs ===
+*.log
+logs/
+output/
+checkpoints/
+runs/
+
+# === Node / React ===
+node_modules/
+dist/
+build/
+*.log
+.env.local
+.env.production
+.env.development
+
+# === OS files ===
+Thumbs.db
+.DS_Store
